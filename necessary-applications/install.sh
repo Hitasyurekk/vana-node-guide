@@ -1,12 +1,5 @@
 #!/bin/bash
 
-echo -e "\n###############################"
-echo "# The guide was prepared by Hitasyurek."
-echo "###############################\n"
-
-echo "Tw / X : https://x.com/hitasyurek"
-echo "TG : https://t.me/ROVEtm\n"
-
 # Kurulum öncesi güncellemeleri yap
 echo "Güncellemeler yapılıyor..."
 sudo apt update
@@ -50,4 +43,16 @@ poetry install
 echo "Vana CLI yükleniyor..."
 pip install vana
 
-echo "Kurulum tamamlandı!"
+# Mavi renk kodu
+BLUE="\033[34m"
+# Renk sıfırlama kodu
+RESET="\033[0m"
+
+echo -e "\n###############################"
+echo -e "${BLUE}# The guide was prepared by Hitasyurek.${RESET}"
+echo -e "${BLUE}#------------------------------------${RESET}"
+echo -e "${BLUE}# İlk kurulum tamamlandı, sıradaki adıma geçebilirsiniz.${RESET}"
+echo -e "${BLUE}###############################${RESET}\n"
+
+echo -e "${BLUE}Tw / X : https://x.com/hitasyurek${RESET}"
+echo -e "${BLUE}TG : https://t.me/ROVEtm${RESET}\n"
