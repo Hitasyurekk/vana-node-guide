@@ -46,7 +46,7 @@ Bu kelimeleri kaydedin ihtiyacımız olacak cold key ve hot key alacaksınız ay
 
 **Ekranda ki gibi cold key'i anahtarını alın.**
 
-![image](https://github.com/user-attachments/assets/dc1fa655-3e7b-465e-8d7b-38a9d2595d62)
+![image](https://github.com/user-attachments/assets/45f22c1b-bdd8-41c1-935f-a1ca4ef00518)
 
 **Şimdi aldığımız bu private keyi metamask'a import ediyoruz, daha sonra verdiğim ağ bilgilerini girerek metamask'a ağ ekliyoruz.**
 
