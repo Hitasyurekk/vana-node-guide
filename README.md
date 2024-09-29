@@ -56,3 +56,29 @@ Bu kelimeleri kaydedin ihtiyacımız olacak cold key ve hot key alacaksınız ay
 **Currency: VANA**
 
 **Faucet sitesine giderek test token talep ediyoruz. https://faucet.vana.org/satori**
+
+### 2. adım Client oluşturma 
+
+<code> cd /root/vana-node-guide/necessary-applications/vana-dlp-chatgpt/
+./keygen.sh </code>
+
+**Burada bilgileri kendime göre doldurdum.**
+
+![image](https://github.com/user-attachments/assets/630a4dd8-4628-4685-b04d-e5e02f209c3d)
+
+## 3. Adım artık token deploy ediyoruz!
+
+```
+cd $HOME
+
+git clone https://github.com/vana-com/vana-dlp-smart-contracts.git
+
+cd vana-dlp-smart-contracts
+
+npm install -g yarn
+
+yarn --version
+
+yarn install
+```
+
