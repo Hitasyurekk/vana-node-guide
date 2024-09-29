@@ -49,7 +49,9 @@ vanacli wallet export_private_key
 
 **Şimdi aldığımız bu private keyleri metamask'a import ediyoruz, daha sonra verdiğim ağ bilgilerini girerek metamask'a ağ ekliyoruz.**
 
-**Network name: Satori Testnet
-RPC URL: https://rpc.satori.vana.org
-Chain ID: 14801
-Currency: VANA**
+**Network name: Satori Testnet**
+**RPC URL: https://rpc.satori.vana.org**
+**Chain ID: 14801**
+**Currency: VANA**
+
+**Faucet sitesine giderek test token talep ediyoruz. https://faucet.vana.org/satori**
