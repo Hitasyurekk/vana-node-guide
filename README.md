@@ -42,13 +42,13 @@ Bu kelimeleri kaydedin ihtiyacımız olacak cold key ve hot key alacaksınız ay
 
 **Şimdi cüzdanlarımızın private keyini alarak dışarıya aktaracağız.**
 
-<code>vanacli wallet export_private_key </code>
+<code>/root/.cache/pypoetry/virtualenvs/chatgpt-3h7aoLAu-py3.11/bin/vanacli wallet export_private_key</code>
 
-**Ekranda ki gibi sırasıyla 2 anahtarı alın.**
+**Ekranda ki gibi cold key'i anahtarını alın.**
 
 ![image](https://github.com/user-attachments/assets/dc1fa655-3e7b-465e-8d7b-38a9d2595d62)
 
-**Şimdi aldığımız bu private keyleri metamask'a import ediyoruz, daha sonra verdiğim ağ bilgilerini girerek metamask'a ağ ekliyoruz.**
+**Şimdi aldığımız bu private keyi metamask'a import ediyoruz, daha sonra verdiğim ağ bilgilerini girerek metamask'a ağ ekliyoruz.**
 
 **Network name: Satori Testnet**
 **RPC URL: https://rpc.satori.vana.org**
