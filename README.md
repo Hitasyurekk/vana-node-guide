@@ -82,3 +82,21 @@ yarn --version
 yarn install
 ```
 
+**Dosyaları indirdikten sonra bis dosyayı kopyalarak içeriğini değiştireceğiz.**
+
+
+```
+cp .env.example .env
+
+nano .env
+```
+
+Kendi cüzdan bilgilerinizi burada giriceksiniz ve token bilgisi ekleyeceksinn İşlem bittikten sonra ctrl x + y + enter ile çıkış yapabilirsiniz.
+![image](https://github.com/user-attachments/assets/48c5279e-8328-46c7-86aa-c2e6c483f031)
+
+Contrat deploy adımı 
+```
+npx hardhat deploy --network satori --tags DLPDeploy
+```
+
+
